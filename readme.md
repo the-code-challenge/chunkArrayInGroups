@@ -51,7 +51,7 @@ Dado un array ["a", "b", "c", "d"] y una longitud de 2 debe retornar  [ ["a", "b
 ---
 ### Test 3  
 
-- **Parametros**: (arr = [0, 1, 2, 3, 4, 5], size = 2)
+- **Parametros**: (arr = [0, 1, 2, 3, 4, 5], size = 4)
 - **Resultado esperado**: [[0, 1, 2, 3], [4, 5]]
 ---
 ### Test 4  

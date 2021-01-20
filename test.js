@@ -28,7 +28,7 @@ describe('chunkArrayInGroups challenge', () => {
      * TEST 3
      */
     it('Test3', () => {
-        let result = chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2)
+        let result = chunkArrayInGroups([0, 1, 2, 3, 4, 5], 4)
         let expected = [ [0, 1, 2, 3], [4, 5] ]
 
         assert.strictEqual(result,expected)
