@@ -1,8 +1,8 @@
-const challengeFunction = function(param){
+const chunkArrayInGroups = function(arr, size){
     /* YOUR CODE HERE */
     let result
 
     return result
 }
 
-module.exports = challengeFunction
+module.exports = chunkArrayInGroups
