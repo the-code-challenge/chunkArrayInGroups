@@ -1,7 +1,7 @@
 const chunkArrayInGroups = require('./index.js')
 const assert = require('assert')
 
-describe('ChallengeTemplate', () => {
+describe('chunkArrayInGroups challenge', () => {
 
     /**
      * TEST 1
