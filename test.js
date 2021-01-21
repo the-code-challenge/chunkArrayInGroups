@@ -10,8 +10,7 @@ describe('chunkArrayInGroups challenge', () => {
 
         let result = chunkArrayInGroups(["a", "b", "c", "d"], 2)
         let expected = [ ["a", "b"], ["c", "d"] ]
-
-        assert.strictEqual(result,expected)
+        assert.deepStrictEqual(result,expected)
     })
 
     /**
@@ -21,7 +20,7 @@ describe('chunkArrayInGroups challenge', () => {
         let result = chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3)
         let expected = [ [0, 1, 2], [3, 4, 5] ]
 
-        assert.strictEqual(result,expected)
+        assert.deepStrictEqual(result,expected)
     })
 
     /**
@@ -31,7 +30,7 @@ describe('chunkArrayInGroups challenge', () => {
         let result = chunkArrayInGroups([0, 1, 2, 3, 4, 5], 4)
         let expected = [ [0, 1, 2, 3], [4, 5] ]
 
-        assert.strictEqual(result,expected)
+        assert.deepStrictEqual(result,expected)
     })
 
     /**
@@ -40,8 +39,7 @@ describe('chunkArrayInGroups challenge', () => {
     it('Test4', () => {
         let result = chunkArrayInGroups([0, 1, 2, 3, 4, 5, 6, 7, 8], 4)
         let expected = [ [0, 1, 2, 3], [4, 5, 6, 7], [8] ]
-
-        assert.strictEqual(result,expected)
+        assert.deepStrictEqual(result,expected)
     })
 
 })

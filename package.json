@@ -4,7 +4,7 @@
   "description": "challenge template",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js --reporter spec"
+    "test": "mocha test.js -s 0 --reporter spec"
   },
   "author": "Cristian Incarnato",
   "license": "MIT",
